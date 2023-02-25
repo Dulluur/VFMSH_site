@@ -261,7 +261,7 @@ main a:hover {
 }
 
 
-/* main container left */
+/* main container left  ЕГО НЕТ??*/
 
 .main-container-left {
     padding: 30px 10px;
@@ -318,8 +318,8 @@ main a:hover {
 }
 
 .main-container-right img {
-    width: 100px;
-    height: 100px;
+    width: 60%;
+    height: auto;
     align-self: center;
 }
 
@@ -344,6 +344,10 @@ main a:hover {
 
 .main-container-right article div {
     margin-right: 10px;
+}
+
+.main-container-right article h4 {
+    font-size: 16px;
 }
 
 
@@ -398,6 +402,31 @@ footer>p {
     padding: 10px 0;
     border-bottom: 1.6px solid #808080;
 }
+
+table {
+    border-collapse: collapse;
+    line-height: 1.1;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    /* background: radial-gradient(farthest-corner at 50% 50%, #252525, #8b0000); */
+    color: #0C213B;
+}
+
+th {
+    padding: 10px;
+    border: 1px solid #252525;
+}
+
+td {
+    font-size: 0.8em;
+    padding: 5px 7px;
+    border: 1px solid #808080;
+}
+
+.first {
+    font-weight: bold;
+}
+
+
 
 @media(max-width: 460px) {
     .hot-topic-content h2 {
