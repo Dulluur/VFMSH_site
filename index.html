@@ -148,7 +148,7 @@
 
 
             <h2>Расписание</h2>
-            <div class="container-top-left">
+            <div class="container-top-left" style="overflow-x:auto">
 
                 <table>
                     <tr>
@@ -156,6 +156,7 @@
                         <th colspan="2">9 класс - 422л</th>
                         <th colspan="2">10 класс - 420л</th>
                         <th colspan="2">11 класс - 225п</th>
+                        <th colspan="3">8 класс - 227п</th>
                     </tr>
 
                     <tr>
@@ -166,6 +167,10 @@
                         <td>Капустина Галина Григорьевна</td>
                         <td>МАТЕМАТИКА</td>
                         <td>Манаков Виктор Михайлович</td>
+
+                        <td class="first">l. 10:00 - 11:00</td>
+                        <td>ФИЗИКА</td>
+                        <td>Егоршин Иван Николаевич</td>
                     </tr>
 
                     <tr>
@@ -176,6 +181,10 @@
                         <td>Агапова Елена Григорьевна</td>
                         <td>ФИЗИКА</td>
                         <td>Авербух Бернард Борисович</td>
+
+                        <td class="first">ll. 11:10 - 12:10</td>
+                        <td>МАТЕМАТИКА</td>
+                        <td>Искандаров Илхам Кучкарович</td>
                     </tr>
 
                     <tr>
@@ -186,40 +195,13 @@
                         <td>-</td>
                         <td>АНГЛИЙСКИЙ ЯЗЫК</td>
                         <td>-</td>
-                    </tr>
-                </table>
 
-                <br>
-
-                <table>
-                    <tr>
-                        <th rowspan="1" class="first">Время</th>
-                        <th colspan="2">8 класс - 227п</th>
-
-                    </tr>
-
-                    <tr>
-                        <td rowspan="1" class="first">l. 10:00 - 11:00</td>
-                        <td>ФИЗИКА</td>
-                        <td>Егоршин Иван Николаевич</td>
-
-                    </tr>
-
-                    <tr>
-                        <td rowspan="1" class="first">ll. 11:10 - 12:10</td>
-                        <td>МАТЕМАТИКА</td>
-                        <td>Искандаров Илхам Кучкарович</td>
-
-                    </tr>
-
-                    <tr>
-                        <td rowspan="1" class="first">lll. 12:20 - 13:20 (по желанию)</td>
+                        <td class="first">lll. 12:20 - 13:20 (по желанию)</td>
                         <td>ИНФОРМАТИКА</td>
                         <td>Берман Нина Демидовна</td>
-
                     </tr>
-                </table>
 
+                </table>
                 <!-- <article>
                     <img src="images/r.png">
 
@@ -228,85 +210,85 @@
 
 
         </section>
-
-        <section class="main-container-right">
-            <h2>Новости</h2>
-
-            <article>
-                <h4>18 декабря </h4>
-                <div>
-                    <h2>День открытых дверей!</h2>
-
-                    <p>Взгляните на фотографии со дня открытых дверей!</p>
-
-                    <a href="https://disk.yandex.ru/d/eCQDsyAPNX1AJw">Смотреть <span>>></span></a>
-                </div>
-                <img src="images/d.jpg">
-            </article>
-
-            <article>
-                <h4>25 сентярбря </h4>
-                <div>
-                    <h2>Открытие 2022-2023 учебного года</h2>
-
-                    <p>Взгляните на фотографии с открытия!</p>
-
-                    <a href="https://disk.yandex.ru/d/R4O4IiI8y8d9hQ">Смотреть <span>>></span></a>
-                </div>
-                <img src="images/ot.jpg">
-            </article>
-
-            <article>
-                <h4>1 сентярбря </h4>
-                <div>
-                    <h2>Что такое ВФМШ?</h2>
-
-                    <p>Узнайте историю создания Воскресной физико-математической школы</p>
-
-                    <a href="info.html">Узнать <span>>></span></a>
-                </div>
-                <img src="images/sin1.jpg">
-            </article>
-
-            <article>
-                <h4>26 апреля </h4>
-                <div>
-                    <h2>Закрытие 2021-2022 учебного года</h2>
-
-                    <p>Ежегодное событие нашей воскресной школы прошло в последние выходные апреля</p>
-                    <p>С нетерпением ждём вас осенью!</p>
-
-                    <a href="https://disk.yandex.ru/d/_Zz73j_L9-Nv5Q">Смотреть<span>>></span></a>
-                </div>
-                <img src="images/zak.jpg">
-            </article>
-
-            <article>
-                <h4>7 марта </h4>
-                <div>
-                    <h2>Отрывок из архива</h2>
-
-                    <p>Посмотрите видеоматериал из прошлого ВФМШ</p>
-
-                    <a href="https://disk.yandex.ru/i/87EIFmeOBqdN5A">Смотреть <span>>></span></a>
-                </div>
-                <img src="images/sin2.jpg">
-            </article>
-
-            <article>
-                <h4>25 февраля </h4>
-                <div>
-                    <h2>Вы видели наших преподователей?</h2>
-
-                    <p>Обязательно переходите по ссылке и посмотрите!</p>
-
-                    <a href="pr.html">Смотреть <span>>></span></a>
-                </div>
-                <img src="images/pr.jpg">
-
-            </article>
-        </section>
     </main>
+
+    <section class="main-container-right">
+        <h2>Новости</h2>
+
+        <article>
+            <h4>18 декабря </h4>
+            <div class="news__blog">
+                <h2>День открытых дверей!</h2>
+
+                <p>Взгляните на фотографии со дня открытых дверей!</p>
+
+                <a href="https://disk.yandex.ru/d/eCQDsyAPNX1AJw">Смотреть <span>>></span></a>
+            </div>
+            <img src="images/d.jpg">
+        </article>
+
+        <article>
+            <h4>25 сентября </h4>
+            <div class="news__blog">
+                <h2>Открытие 2022-2023 учебного года</h2>
+
+                <p>Взгляните на фотографии с открытия!</p>
+
+                <a href="https://disk.yandex.ru/d/R4O4IiI8y8d9hQ">Смотреть <span>>></span></a>
+            </div>
+            <img src="images/ot.jpg" class="second__image">
+        </article>
+
+        <article>
+            <h4>1 сентября </h4>
+            <div class="news__blog">
+                <h2>Что такое ВФМШ?</h2>
+
+                <p>Узнайте историю создания Воскресной физико-математической школы</p>
+
+                <a href="info.html">Узнать <span>>></span></a>
+            </div>
+            <img src="images/sin1.jpg">
+        </article>
+
+        <article>
+            <h4>26 апреля </h4>
+            <div class="news__blog">
+                <h2>Закрытие 2021-2022 учебного года</h2>
+
+                <p>Ежегодное событие нашей воскресной школы прошло в последние выходные апреля</p>
+                <p>С нетерпением ждём вас осенью!</p>
+
+                <a href="https://disk.yandex.ru/d/_Zz73j_L9-Nv5Q">Смотреть<span>>></span></a>
+            </div>
+            <img src="images/zak.jpg">
+        </article>
+
+        <article>
+            <h4>7 марта </h4>
+            <div class="news__blog">
+                <h2>Отрывок из архива</h2>
+
+                <p>Посмотрите видеоматериал из прошлого ВФМШ</p>
+
+                <a href="https://disk.yandex.ru/i/87EIFmeOBqdN5A">Смотреть <span>>></span></a>
+            </div>
+            <img src="images/sin2.jpg">
+        </article>
+
+        <article>
+            <h4>25 февраля </h4>
+            <div class="news__blog">
+                <h2>Вы видели наших преподователей?</h2>
+
+                <p>Обязательно переходите по ссылке и посмотрите!</p>
+
+                <a href="pr.html">Смотреть <span>>></span></a>
+            </div>
+            <img src="images/pr.jpg">
+
+        </article>
+    </section>
 
     <footer>
         <div class="footer-container">
