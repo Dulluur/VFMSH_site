@@ -720,6 +720,18 @@ td {
     font-size: 54px;
     font-family: var(--heading);
 }
+.mandp h3 {
+    padding: 0cm 0cm 0cm 3.3cm;
+    font-size: 48px;
+    font-family: var(--heading);
+}
+
+.mandp ul{
+    padding: 0cm 0cm 0cm 3.3cm;
+    font-size: 28px;
+    line-height: 2;
+    font-family: var(--heading);
+}
 
 .mandp article {
     display: grid;
