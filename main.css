@@ -713,22 +713,23 @@ td {
 
 .mandp {
     padding: 30px 10px;
+    width: 70%;
 }
 
 .mandp h2 {
-    padding: 0cm 0cm 0cm 3.3cm;
-    font-size: 54px;
+
+    font-size: 36px;
     font-family: var(--heading);
 }
 .mandp h3 {
-    padding: 0cm 0cm 0cm 3.3cm;
-    font-size: 48px;
+
+    font-size: 24px;
     font-family: var(--heading);
 }
 
 .mandp ul{
     padding: 0cm 0cm 0cm 3.3cm;
-    font-size: 28px;
+    font-size: 20px;
     line-height: 2;
     font-family: var(--heading);
 }
@@ -789,6 +790,27 @@ td {
 
     .mandp article img {
         display: none;
+    }
+
+    .mandp {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .mandp h2{
+        margin: 15px;
+        padding: 0;
+    }
+
+    .mandp h3{
+        margin: 15px;
+        padding: 0;
+    }
+
+    .mandp ul{
+        margin: 15px;
+        padding: 0;
     }
 }
 
