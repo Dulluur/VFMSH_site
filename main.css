@@ -87,6 +87,10 @@ hr {
     font-weight: bold;
 }
 
+.social-icons{
+    font-size: 1.5rem;
+}
+
 .nav-bar ul li:hover {
     background: #8b0000;
 }
@@ -100,12 +104,6 @@ hr {
     text-decoration: underline;
 }
 
-
-/* social -icons */
-
-.social-icons {
-    display: none;
-}
 
 
 /* banner */
@@ -513,7 +511,7 @@ td {
 
     .nav-bar nav ul {
         display: flex;
-        justify-content: flex-start;
+        align-items: center;
     }
 
     .nav-bar nav ul li {
@@ -526,10 +524,7 @@ td {
 
     /* social icons */
     .social-icons {
-        flex: 0 1 30%;
-        display: block;
-        margin: 0 auto;
-        justify-content: flex-end;
+        display: flex;
     }
 
     .social-icons .fab {
