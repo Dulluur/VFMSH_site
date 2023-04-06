@@ -1074,6 +1074,14 @@ td {
         padding: 4rem 2rem;
     }
 
+    .cards-wrapper h2 {
+        font-size: 24px;
+    }
+
+    .date {
+        font-size: 15px;
+    }
+
     .card {
         max-width: calc(100vw - 4rem);
     }
